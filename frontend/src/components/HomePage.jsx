@@ -82,9 +82,9 @@ export default function HomePage() {
             </div>
 
             <div className="project-actions">
-              <a className="button button-primary" href={featured.liveUrl} target="_blank" rel="noreferrer">Live Demo / Paper</a>
-              <a className="button" href={featured.githubUrl} target="_blank" rel="noreferrer">Source Link</a>
-              <Link className="button button-subtle" to={`/projects/${featured.slug}`}>Case Study</Link>
+              <Link className="button" to={`/projects/${featured.slug}`}>View Project</Link>
+              <a className="button button-primary" href={featured.liveUrl} target="_blank" rel="noreferrer">Live Demo</a>
+              <a className="button button-subtle" href={featured.githubUrl} target="_blank" rel="noreferrer">GitHub</a>
             </div>
           </div>
         </section>
