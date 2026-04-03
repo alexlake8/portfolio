@@ -29,9 +29,9 @@ export default function ProjectPage() {
         </div>
 
         <div className="button-row">
-          <a className="button button-primary" href={project.liveUrl} target="_blank" rel="noreferrer">Open Link</a>
-          <a className="button" href={project.githubUrl} target="_blank" rel="noreferrer">Source</a>
-        </div>
+          <a className="button button-primary live-demo-btn" href={project.liveUrl} target="_blank" rel="noreferrer">🚀 Live Demo</a>
+          <a className="button" href={project.githubUrl} target="_blank" rel="noreferrer">GitHub</a>
+      </div>
       </div>
 
       <div className="two-col top-gap">
