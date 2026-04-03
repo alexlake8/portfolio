@@ -7,7 +7,7 @@ export const projects = [
   type: "Featured Project",
   stack: ["Node.js", "Express", "REST API", "Render"],
   liveUrl: "https://three750final.onrender.com",
-  githubUrl: "https://github.com/YOUR_USERNAME/YOUR_BATTLESHIP_REPO",
+  githubUrl: "https://github.com/alexlake8/3750final",
   summary:
     "Battleship API is a live multiplayer backend that lets players create accounts, start and join games, place ships, take turns firing shots, and view match history and player stats. What makes it interesting is that it handles real game flow instead of just CRUD, including turn order, elimination, and winner tracking. A key architecture decision was designing clean REST endpoints backed by persistent game state to ensure consistency across requests.",
   highlights: [
