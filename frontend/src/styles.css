@@ -158,3 +158,8 @@ h3 { margin-top: 0; margin-bottom: 0.55rem; font-size: 1.15rem; }
   border-radius: 6px;
   text-decoration: none;
 }
+
+.live-demo-btn {
+  font-size: 1.15rem;
+  padding: 0.95rem 1.5rem;
+}
