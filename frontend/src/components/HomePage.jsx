@@ -1,11 +1,3 @@
-
-const featuredProject = {
-  title: "Battleship API",
-  description: "Live multiplayer Battleship backend with persistent game state.",
-  live: "https://three750final.onrender.com",
-  github: "https://github.com/alexlake8/portfolio"
-};
-
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { getProfile, getProjects } from "../api.js";
