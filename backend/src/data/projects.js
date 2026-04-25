@@ -22,6 +22,28 @@ export const projects = [
   }
 },
   {
+    slug: "movie-collection-manager",
+    title: "Movie Collection Manager",
+    tagline: "A hosted web app for tracking and managing a personal movie collection.",
+    role: "Solo Full-Stack Project",
+    type: "Full-Stack Web App",
+    stack: ["JavaScript", "Frontend", "Backend API", "Render"],
+    liveUrl: "https://alexlakesolo3-1.onrender.com/",
+    githubUrl: "https://github.com/alexlake8/AlexLakeSolo3",
+    summary:
+      "Movie Collection Manager is a full-stack web app for organizing a personal movie library through a deployed frontend connected to a live backend service. It demonstrates practical CRUD-style app development, hosted frontend/backend deployment, and a clean user-facing interface. The project is included as supporting portfolio work beneath the main Battleship API spotlight.",
+    highlights: [
+      "Hosted frontend on Render as a static site",
+      "Connects to a live backend web service",
+      "Designed for managing and viewing movie collection data"
+    ],
+    architectureDecision: {
+      title: "Separate static frontend and backend service",
+      summary:
+        "Deploying the frontend as a static Render site and the backend as a web service keeps the user interface separate from the API, making each part easier to update, test, and redeploy independently."
+    }
+  },
+  {
     slug: "assistive-visual-navigation",
     title: "Assistive Visual Navigation",
     tagline: "Research-driven assistive navigation work using AI and computer vision to help visually impaired users understand their surroundings.",
