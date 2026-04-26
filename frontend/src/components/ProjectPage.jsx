@@ -14,6 +14,8 @@ export default function ProjectPage() {
   if (error) return <main className="container section"><div className="card error-box">{error}</div></main>;
   if (!project) return <main className="container section"><div className="card">Loading project...</div></main>;
 
+  const primaryActionLabel = project.slug === "assistive-visual-navigation" ? "View Paper" : "🚀 Live Demo";
+
   return (
     <main className="container section">
       <Link className="back-link" to="/">← Back to Home</Link>
@@ -29,7 +31,7 @@ export default function ProjectPage() {
         </div>
 
         <div className="button-row">
-          <a className="button button-primary live-demo-btn" href={project.liveUrl} target="_blank" rel="noreferrer">🚀 Live Demo</a>
+          <a className="button button-primary live-demo-btn" href={project.liveUrl} target="_blank" rel="noreferrer">{primaryActionLabel}</a>
           <a className="button" href={project.githubUrl} target="_blank" rel="noreferrer">GitHub</a>
       </div>
       </div>
