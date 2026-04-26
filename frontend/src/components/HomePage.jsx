@@ -32,8 +32,6 @@ export default function HomePage() {
 
             <div className="button-row">
               <a className="button button-primary" href="#featured">Featured Project</a>
-              <a className="button" href="mailto:alexclake1@gmail.com">Email Me</a>
-              <a className="button button-subtle" href="https://github.com/yourusername" target="_blank" rel="noreferrer">GitHub</a>
             </div>
 
             <div className="hero-stats">
